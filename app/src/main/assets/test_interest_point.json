@@ -1,0 +1,38 @@
+{    "points": [
+                {
+                  "lat": 22.381767,
+                  "long": -97.903212,
+                  "title": "CCI",
+                  "description": "Descripción",
+                  "imageroute": "turistico_04"
+                },
+                {
+                  "lat": 22.381471,
+                  "long": -97.902243,
+                  "title": "Campus Café",
+                  "description": "Comida Corrida a partir de las 11 AM",
+                  "imageroute": "restaurante_02"
+                },
+                {
+                  "lat": 22.381569,
+                  "long": -97.902223,
+                  "title": "OXXO",
+                  "description": "Hotdogs 2x1",
+                  "imageroute": "oxxo"
+                },
+                {
+                  "lat": 22.381464,
+                  "long": -97.901419,
+                  "title": "Borrego",
+                  "description": "Estatua",
+                  "imageroute": "turistico_00"
+                },
+                {
+                  "lat":22.379509,
+                  "long":-97.902199,
+                  "title": "Estadio",
+                  "description": "Borregos",
+                  "imageroute": "turistico_02"
+                }
+                ]
+}
