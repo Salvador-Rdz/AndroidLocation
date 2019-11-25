@@ -7,10 +7,13 @@ android {
 
     defaultConfig {
         applicationId "com.example.mapdemo"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
+        ndk {
+            abiFilters 'armeabi-v7a', 'x86'
+        }
     }
     buildTypes {
         release {
@@ -25,7 +28,10 @@ repositories {
 }
 
 dependencies {
+    implementation project(':Tec_Final_AR-debug')
+    implementation project(':VuforiaWrapper')
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     testImplementation 'junit:junit:4.12'
     implementation 'com.google.maps.android:android-maps-utils:0.5'
     implementation 'com.google.android.gms:play-services-location:12.0.1'

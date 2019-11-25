@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <resources>
-    <string name="demo_title">Google Maps API Demos</string>
+    <string name="demo_title">Tam GO</string>
     <string name="no_demos">No demos</string>
     <string name="play_services_not_installed">Google Play services is not installed on this device.</string>
 
@@ -61,13 +61,6 @@
     <string name="hue">Hue</string>
     <string name="hybrid">Hybrid</string>
     <string name="indoor">Indoor</string>
-    <string-array name="layers_array">
-        <item>@string/normal</item>
-        <item>@string/hybrid</item>
-        <item>@string/satellite</item>
-        <item>@string/terrain</item>
-        <item>@string/none_map</item>
-    </string-array>
     <string name="layers_demo_label">Layers</string>
     <string name="layers_demo_description">Demonstrates the different map layers.</string>
     <string name="left_arrow">\u2190</string>
@@ -158,9 +151,9 @@
     <string name="zoom_gestures">Zoom Gestures</string>
     <string name="zoom_in">+</string>
     <string name="zoom_out">-</string>
+    <string name="start_cap">Start cap</string>
 
     <!-- Polyline/polygon styling -->
-    <string name="start_cap">Start cap</string>
     <string name="end_cap">End cap</string>
     <string name="joint_type">Joint Type</string>
     <string name="pattern">Pattern</string>
@@ -175,9 +168,9 @@
     <string name="pattern_dotted">Dotted</string>
     <string name="pattern_dashed">Dashed</string>
     <string name="pattern_mixed">Mixed</string>
+    <string name="grid">Grid</string>
 
     <!-- Lite Mode -->
-    <string name="grid">Grid</string>
     <string name="lite_demo_label">Lite Mode</string>
     <string name="lite_demo_description">Demonstrates some features on a map in lite mode.</string>
     <string name="lite_demo_intro">Click the map with no, one or multiple markers displayed to open the Google Maps Mobile app.</string>
@@ -187,17 +180,17 @@
     <string name="linear">Linear</string>
     <string name="lite_list_demo_label">Lite Mode List</string>
     <string name="lite_list_demo_description">Demonstrates using maps in lite mode in a RecyclerView using LinearLayoutManager and GridLayoutManager.</string>
+    <string name="activate_higher_level">Activate Higher Level</string>
 
     <!--     Indoor    -->
-    <string name="activate_higher_level">Activate Higher Level</string>
     <string name="focused_building_info">Focused Building</string>
     <string name="focused_level_info">Focused Level</string>
     <string name="indoor_demo_description">Demonstrates how to use the Indoor API.</string>
     <string name="indoor_demo_label">Indoor</string>
     <string name="toggle_level_picker">Toggle Level Picker</string>
+    <string name="go_to_invalid">Go to Invalid Point</string>
 
     <!--    Streetview    -->
-    <string name="go_to_invalid">Go to Invalid Point</string>
     <string name="go_to_san_fran">Go to San Fran</string>
     <string name="navigate_to_another_panorama">navigate to another panorama</string>
     <string name="navigation">Navigation</string>
@@ -222,9 +215,9 @@
     <string name="tap_screen">tap screen</string>
     <string name="long_press_screen">long press screen</string>
     <string name="walk_panorama">Walk</string>
+    <string name="styled_map_demo_label">Styled Map</string>
 
     <!--    Styling    -->
-    <string name="styled_map_demo_label">Styled Map</string>
     <string name="styled_map_demo_description">Demonstrates how to style a map.</string>
     <string name="style_label_retro">Retro</string>
     <string name="style_label_night">Night</string>
@@ -233,10 +226,17 @@
     <string name="style_label_default">Default</string>
     <string name="style_choose">Choose style</string>
     <string name="style_set_to">Style set to: %1$s</string>
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
 
     <!--    Permissions    -->
-    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
     <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
     <string name="permission_required_toast">Location permission is required for this demo.</string>
+    <string-array name="layers_array">
+        <item>@string/normal</item>
+        <item>@string/hybrid</item>
+        <item>@string/satellite</item>
+        <item>@string/terrain</item>
+        <item>@string/none_map</item>
+    </string-array>
 
 </resources>

@@ -1,1 +1,1 @@
-include ':app'
+include ':app', ':tecAr-debug', ':VuforiaWrapper', ':TESTANDOID-debug', ':Tec_Final_AR-debug'
